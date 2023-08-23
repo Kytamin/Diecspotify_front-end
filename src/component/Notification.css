@@ -1,0 +1,28 @@
+.popper-container {
+    position: absolute;
+    z-index: 1000;
+}
+
+.notification-box {
+    border: 1px solid #000;
+    border-radius: 2%;
+    padding: 8px;
+    background-color: #1c1e21;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-left: -7%;
+    overflow: auto;
+    height: 480px;
+    width: 480px;
+}
+
+.notification {
+    margin-top: 3%;
+    padding: 8px;
+}
+
+.notification:hover {
+    background-color: #373737;
+    border-radius: 5px;
+    cursor: pointer;
+}
